@@ -1,0 +1,19 @@
+php.code
+
+
+
+<html>
+<body>
+<?php
+function example()
+{
+$str1="this";
+$str2="is a string";
+$full="str1.$str2";
+echo"full";
+header("location:http://www.goole.com");
+}
+example();
+?>
+</body>
+</html>

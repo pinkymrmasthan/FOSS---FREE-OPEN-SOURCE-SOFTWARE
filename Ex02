@@ -1,0 +1,23 @@
+<html>
+<body>
+<form action="ex5a.php"method="post">
+Enter number:<input type="text"name="numb">
+<input type="submit" value="submit">
+</form>
+</body></html>
+
+
+php.code
+
+<html>
+<body>
+<?php
+$a=$_POST['numb'];
+$factorial=1;
+for($i=$a;$i>=1;$i--){
+$factorial=$factorial*$i;
+}
+echo $factorial;
+?>
+</body>
+</html>

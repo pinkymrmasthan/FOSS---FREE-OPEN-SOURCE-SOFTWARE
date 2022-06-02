@@ -1,39 +1,35 @@
-php.code
-
-
+<!DOCTYPE html>
 <html>
+<head>
+	<title></title>
+</head>
 <body>
-<?php
-$num=$_POST['mark'];
-if($num>=95){
-echo"THE GRADE IS:A";
+	<form action="ex5b.php" method="POST">
+		<label>Enter your marks : </label>
+		<input type="text" name="marks" required placeholder="Type your mark here">
+		<input type="submit" name="submit" value="Submit">
+	</form>
+
+</body>
+</html>
+
+PHP CODE
+
+<?php  
+
+$a = $_POST['marks'];
+if($a>=95){
+	echo " Your Grade is A .";
+}elseif ($a>=85) {
+	echo " Your Grade is B ";
+}elseif ($a>=60) {
+	echo " Your Grade is C .";
+}elseif ($a>=50) {
+	echo " Your Grade is D ";
+}elseif ($a>=40) {
+	echo " Your Grade is E ";
+}else{
+	echo "Fail";
 }
-else if($num>=80){
-echo"THE GRADE IS:B";
-}
-else if($num>=70){
-echo"THE GRADE IS:C";
-}
-else if($num>50){
-echo"THE GRADE IS:D";
-}
-else if($num>=40){
-echo"THE GRADE IS:D1";
-}
-else{
-echo"SORRY,YOUR ARE FAIL";
-}
+
 ?>
-</body></html>
-
-
-html.code
-
-
-<html>
-<body>
-<form action="sibi5b.php"method="POST">
-Enter the mark:<input type="text"name="mark"><br>
-<input type="submit" value="submit">
-</form>
-</body></html>

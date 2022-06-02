@@ -1,25 +1,29 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title></title>
+</head>
 <body>
-<form action="fossex6.php"method="POST">
-<input type="checkbox"name="option[]"value="computer">CT<br>
-<input type="checkbox"name="option[]"value="mechanical">ME<br>
-<input type="checkbox"name="option[]"value="electrical">ECE<br>
-<input type="checkbox"name="option[]"value="electronis">EEE<br>
-<input type="submit"name="submit"value="Submit">
-</form>
+	<form action="ex6.php" method="POST">
+		<input type="checkbox" name="sub[]" value="COMPUTER SCIENCE"><label>CSE</label><br><br>
+		<input type="checkbox" name="sub[]" value="ELECTRICAL"><label>EEE</label><br><br>
+		<input type="checkbox" name="sub[]" value="MECHANICAL"><label>MECh</label><br><br>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+
 </body>
 </html>
-
 
 php.code
 
 
-<html>
-<body>
-if(:empty c $.POST["option"])){
-foreach($_POST["option"]a $ value)
-{
+<?php
+
+if(isset($_POST["submit"])){
+	foreach ($_POST["sub"] as $select) {
+		echo "You Selected :".$select."<br>";
+	}
 }
-?>
-</body>
-</html>
+
+
+  ?>

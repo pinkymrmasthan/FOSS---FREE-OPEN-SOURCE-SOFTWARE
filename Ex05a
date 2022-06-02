@@ -1,23 +1,30 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<title></title>
+</head>
 <body>
-<form action="ex5a.php"method="post">
-Enter number:<input type="text"name="numb">
-<input type="submit" value="submit">
-</form>
-</body></html>
+<body style="padding: 250px 50px;background-color: yellow;">
+	<center>
+		<form action="ex5a.php" method="POST">
+			<label>Enter the number: </label>
+			<input type="text" name="numb" required placeholder="Type the number here">
+			<input type="submit" name="submit" value="Submit">
+		</form>
 
-
-php.code
-
-<html>
-<body>
-<?php
-$a=$_POST['numb'];
-$factorial=1;
-for($i=$a;$i>=1;$i--){
-$factorial=$factorial*$i;
-}
-echo $factorial;
-?>
+	</center>
 </body>
 </html>
+
+PHP CODE
+
+
+<?php
+$a=$_POST['numb'];
+$fact=1;
+for ($i=$a;$i>=1;$i--){
+$fact=$fact * $i;}
+echo "The  factorial of  ".$a." is : ".$fact;
+
+ ?>
+

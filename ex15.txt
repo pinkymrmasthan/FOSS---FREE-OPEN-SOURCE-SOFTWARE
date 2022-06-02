@@ -1,0 +1,7 @@
+import os
+
+for myfile in os.listdir("E:"):
+
+   if myfile.endswith(".txt"):
+
+       print(os.path.join("/mydict", myfile))

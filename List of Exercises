@@ -1,0 +1,41 @@
+List of Exercises:
+1.Set up a LAN in linux environment.
+
+2. 
+ a) Connect internet in linux environment
+
+ b) Setting up a printer in linux environment.
+
+3. 
+  a) Installation osapche web server and configuration for PHP.
+  b) Uploading web page in apache.
+
+4. Create a web page and execute a php file on submission of the html form and display the 
+ information using php.
+
+5. 
+   a) Write a program to find factorial of a number and display.
+   b) Generate a php script that will display the grade on the basis of marks .
+
+6. Write a program to show that array is received on server side during multiple options in select.
+
+7.Create a php code which will retrieve the data captured by the html form display the name of 
+ the form and also display the message “data entered successfully” after performing validations
+
+8.Write a program to redirect the browser.
+
+9.Write a php script using function call.
+
+10.Write a program in php to create a file and write data into it.
+
+11. Create a database of an employee in Mysql.
+
+12. Write a program to connect to the database already created in Mysql.
+
+13. Write a program to read,write,update, and delete the database usinhphp python.
+
+14. a) Take fahreinheit temperature from the command line and prints their Celsius equivalents.
+
+ b) Use regular expressions to check whether a phone number is valid.
+
+15.Write a python program to display the content of all text files in a directory
